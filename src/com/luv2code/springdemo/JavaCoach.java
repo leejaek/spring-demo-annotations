@@ -9,4 +9,9 @@ public class JavaCoach implements Coach {
     public String getDailyWorkout() {
         return "Java";
     }
+
+    @Override
+    public String getDailyFortune() {
+        return null;
+    }
 }
