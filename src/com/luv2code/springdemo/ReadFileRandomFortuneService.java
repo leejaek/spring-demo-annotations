@@ -19,7 +19,7 @@ public class ReadFileRandomFortuneService implements FortuneService {
     @PostConstruct
     public void initiateReadFileRandomFortuneService() {
         System.out.println(">> ReadFileRandomFortuneService: inside of initiateReadFileRandomFortuneService()");
-        String fileName = "/Users/jaehyeoklee/Dropbox/100 Project/spring-demo-annotations/src/fortune.txt";
+        String fileName = "/Users/jaehyeoklee/Dropbox/git/spring-demo-annotations/src/fortune.txt";
         try {
             FileReader fileReader = new FileReader(fileName);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
